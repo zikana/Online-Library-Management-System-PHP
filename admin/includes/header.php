@@ -6,10 +6,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand">
-
-                    <img id="img" src="assets/img/logo.jpg" />
-                </a>
+                <h2> <center> ZICTC Library Management System </center></h2>
+                  
+                
 
             </div>      
         </div>
