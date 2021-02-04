@@ -49,7 +49,7 @@ header('location:manage-books.php');
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">Manage Books</h4>
+                <h4 class="header-line" style="color:white">Manage Books</h4>
     </div>
      <div class="row">
     <?php if($_SESSION['error']!="")

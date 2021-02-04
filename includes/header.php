@@ -6,10 +6,10 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" >
-
-                    <img id="img1" src="assets/img/logo.jpg" />
-                </a>
+                <div class="text-center display-4"><h2 style="color:white">  ZICTC Library Management System </h2>
+                  
+                  </div>
+                
 
             </div>
 <?php if($_SESSION['login'])
@@ -59,9 +59,8 @@
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">                        
                           
-  <li><a href="adminlogin.php">Admin Login</a></li>
-                            <li><a href="signup.php">User Signup</a></li>
-                             <li><a href="index.php">User Login</a></li>
+  <li><a href="index.php">Admin Login</a></li>
+                           
                           
 
                         </ul>

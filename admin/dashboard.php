@@ -27,6 +27,17 @@ else{?>
     <!-- GOOGLE FONT -->
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
+    <style>
+
+     
+
+    .alert:hover{
+
+        background-color:greenyellow;
+    }
+    
+    </style>
+
 </head>
 <body>
       <!------MENU SECTION START-->
@@ -36,7 +47,7 @@ else{?>
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">ADMIN DASHBOARD</h4>
+                <h4 class="header-line" style="color:white">ADMIN DASHBOARD</h4>
                 
                             </div>
 
@@ -45,7 +56,10 @@ else{?>
              <div class="row">
 
  <div class="col-md-3 col-sm-3 col-xs-6">
+ <a href="manage-books.php">
                       <div class="alert alert-success back-widget-set text-center">
+
+                      
                             <i class="fa fa-book fa-5x"></i>
 <?php 
 $sql ="SELECT id from tblbooks ";
@@ -56,13 +70,16 @@ $listdbooks=$query->rowCount();
 ?>
 
 
-                            <h3><?php echo htmlentities($listdbooks);?></h3>
-                      Books Listed
+                            <h3 style="color:white;"><?php echo htmlentities($listdbooks);?> </h3>
+                            <h4 style="color:white"> Books Listed</h4>
+                     
                         </div>
+                        </a>
                     </div>
 
             
                  <div class="col-md-3 col-sm-3 col-xs-6">
+                 <a href="manage-issued-books.php">
                       <div class="alert alert-info back-widget-set text-center">
                             <i class="fa fa-bars fa-5x"></i>
 <?php 
@@ -73,12 +90,14 @@ $results1=$query1->fetchAll(PDO::FETCH_OBJ);
 $issuedbooks=$query1->rowCount();
 ?>
 
-                            <h3><?php echo htmlentities($issuedbooks);?> </h3>
-                           Times Book Issued
+                            <h3 style="color:white;"><?php echo htmlentities($issuedbooks);?> </h3>
+                            <h4 style="color:white">  Times Book Issued</h4>
                         </div>
+                        </a>
                     </div>
              
                <div class="col-md-3 col-sm-3 col-xs-6">
+              
                       <div class="alert alert-warning back-widget-set text-center">
                             <i class="fa fa-recycle fa-5x"></i>
 <?php 
@@ -91,9 +110,10 @@ $results2=$query2->fetchAll(PDO::FETCH_OBJ);
 $returnedbooks=$query2->rowCount();
 ?>
 
-                            <h3><?php echo htmlentities($returnedbooks);?></h3>
-                          Times  Books Returned
+                            <h3 style="color:white;"><?php echo htmlentities($returnedbooks);?></h3>
+                            <h4 style="color:white">  Times  Books Returned</h4>
                         </div>
+                        
                     </div>
                <div class="col-md-3 col-sm-3 col-xs-6">
                       <div class="alert alert-danger back-widget-set text-center">
@@ -105,8 +125,8 @@ $query3->execute();
 $results3=$query3->fetchAll(PDO::FETCH_OBJ);
 $regstds=$query3->rowCount();
 ?>
-                            <h3><?php echo htmlentities($regstds);?></h3>
-                           Registered Users
+                            <h3 style="color:white;"><?php echo htmlentities($regstds);?> </h3>
+                            <h4 style="color:white">  Registered Users</h4>
                         </div>
                     </div>
 
@@ -117,6 +137,7 @@ $regstds=$query3->rowCount();
  <div class="row">
 
  <div class="col-md-3 col-sm-3 col-xs-6">
+ <a href="manage-authors.php">
                       <div class="alert alert-success back-widget-set text-center">
                             <i class="fa fa-user fa-5x"></i>
 <?php 
@@ -128,13 +149,15 @@ $listdathrs=$query4->rowCount();
 ?>
 
 
-                            <h3><?php echo htmlentities($listdathrs);?></h3>
-                      Authors Listed
+                            <h3 style="color:white;"><?php echo htmlentities($listdathrs);?></h3>
+                            <h4 style="color:white">  Authors Listed</h4>
                         </div>
+                        </a>
                     </div>
 
             
                  <div class="col-md-3 col-sm-3 rscol-xs-6">
+                 <a href="manage-categories.php">
                       <div class="alert alert-info back-widget-set text-center">
                             <i class="fa fa-file-archive-o fa-5x"></i>
 <?php 
@@ -145,9 +168,10 @@ $results5=$query5->fetchAll(PDO::FETCH_OBJ);
 $listdcats=$query5->rowCount();
 ?>
 
-                            <h3><?php echo htmlentities($listdcats);?> </h3>
-                           Listed Categories
+                            <h3 style="color:white;" ><?php echo htmlentities($listdcats);?> </h3>
+                            <h4 style="color:white">      Listed Categories</h4>
                         </div>
+                        </a>
                     </div>
         </div>             
             

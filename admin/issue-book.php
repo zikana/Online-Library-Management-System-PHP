@@ -97,7 +97,7 @@ error:function (){}
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">Issue a New Book</h4>
+                <h4 class="header-line" style="color:white">Issue a New Book</h4>
                 
                             </div>
 

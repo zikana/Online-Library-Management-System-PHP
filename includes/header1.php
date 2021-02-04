@@ -35,10 +35,7 @@
                     <div class="navbar-collapse collapse ">
                         <ul id="menu-top" class="nav navbar-nav navbar-right">                        
                           
-  <li><a href="adminlogin.php">Admin Login</a></li>
-                            <li><a href="signup.php">User Signup</a></li>
-                             <li><a href="index.php">User Login</a></li>
-                          
+                 
 
                         </ul>
                     </div>

@@ -66,7 +66,7 @@ header('location:reg-students.php');
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">Manage Reg Students</h4>
+                <h4 class="header-line" style="color:white">Manage Reg Students</h4>
     </div>
 
 

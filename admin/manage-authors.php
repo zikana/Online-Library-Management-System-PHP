@@ -49,7 +49,7 @@ header('location:manage-authors.php');
          <div class="container">
         <div class="row pad-botm">
             <div class="col-md-12">
-                <h4 class="header-line">Manage Authors</h4>
+                <h4 class="header-line" style="color:white">Manage Authors</h4>
     </div>
      <div class="row">
     <?php if($_SESSION['error']!="")

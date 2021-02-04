@@ -6,8 +6,9 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <h2> <center> ZICTC Library Management System </center></h2>
+                <div class="text-center  display-4"><h2 style="color:white;">  ZICTC Library Management System </h2>
                   
+                  </div>
                 
 
             </div>      
